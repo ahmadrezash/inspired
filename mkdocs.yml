@@ -37,6 +37,7 @@ theme:
 
 plugins:
   - section-index
+  - mkdocs-video
 
 markdown_extensions:
   - attr_list
