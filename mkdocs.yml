@@ -1,0 +1,43 @@
+site_name: اینسپایرد خوانی <sub>محصولی از بچه های بوژان:)</sub>
+theme:
+  palette:
+    primary: red
+    # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to system preference
+    
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
+
+    # # Palette toggle for light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: pink 
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+
+
+  name: material
+  font:
+    text: Vazirmatn
+    code: Roboto Mono
+  # palette:
+  #   primary: blue
+  #   accent: blue
+  favicon: statics/img/logo.jpg
+  logo: statics/img/logo.jpg
+  language: fa
+  direction: rtl
+
+plugins:
+  - section-index
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
